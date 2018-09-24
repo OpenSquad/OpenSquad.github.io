@@ -1,0 +1,189 @@
+body
+{
+    margin:0px;
+    background-image:linear-gradient(to bottom right,#25183a, #cbc5d6);
+}
+
+
+/*      MENU        */
+#navbarmain
+{
+    margin-bottom: 50px;
+    position:fixed;
+    height: 10px;
+    opacity: 0.8;
+    background-color:black;
+    z-index: 99;
+    width:100%;
+    padding:30px 10px;
+    transition:0.3s;
+    top:0;
+    overflow: hidden;
+}
+#navbarmain a
+{
+    color:white;
+}
+#navbarmain-right
+{
+    float:right;
+}
+#navbarmain-right a
+{
+    color:#352351;
+    margin:10px;
+}
+
+
+/*              GENERAL             */
+.section
+{
+    margin-top:100px;
+    margin-bottom: 100px;
+    height:100%;
+    min-height: 100%;
+    width:100%;
+}
+
+#all
+{
+    display:flex;
+    flex-direction: column;
+}
+/*         ACCUEIL      */
+.content-title
+{
+    font-size: 90px;
+    color:white;
+}
+
+
+/*       OFFRE                   */
+#img-offre
+{
+    background-image:url("../resources/images/coding.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.content-section
+{
+    padding:20px;
+    opacity: 0.8;
+    width: 30%;
+    background-color: white;
+    color:black;
+}
+
+#section2 img
+{
+    height: 530px;
+    width: 50%;
+}
+
+#section2{
+    padding:0px;
+    display:flex;
+    flex-direction: row;
+}
+
+#section2 p{
+    font-size: 22px;
+}
+#section2 h2{
+    text-align: center;
+    color:purple;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/*      EQUIPE                   */
+ #equipe
+ {
+     text-align: center;
+     color:white;
+     font-size:50px;
+ }
+#section4{
+    width:100%;
+    display: flex;
+    margin:0px;
+    margin-left: -40px;
+    padding-right: -340px;
+    padding:-100px;
+}
+
+.profile{
+    height: 500px;
+    width:25%;
+    padding:20px;
+    color:silver;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.profile:hover{
+    opacity:0.8;
+    color:gold;
+}
+#profile1{
+    background-image: url('../resources/images/rayan.jpg');
+}
+#profile2{
+    background-image: url('../resources/images/merouane.jpg');
+}
+#profile3{
+    background-image: url('../resources/images/samy.jpg');
+}
+#profile4{
+    background-image: url('../resources/images/nazim.jpg');
+}
+
+
+
+/*          OEUVRES         */
+#section3
+{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+#section3 h2
+{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+
+.oeuvre
+{
+
+    height: 600px;
+}
+
+
+
+/*                  CONTACT                 */
+#section5 h2
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#social
+{
+    justify-content: space-between;
+    display:flex;
+    flex-direction: line;
+}
+
+
+
+
+
+
+
